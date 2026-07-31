@@ -1,0 +1,7 @@
+dependencies:
+  esphome/noise-c:
+    override_path: /Users/christian/Documents/GitHub/hobbyconnect/.esphome/pio_components/idf/03c8a57e/esphome/noise-c
+  espressif/mdns:
+    version: 1.11.0
+  zorxx/multipart-parser:
+    version: 1.0.1

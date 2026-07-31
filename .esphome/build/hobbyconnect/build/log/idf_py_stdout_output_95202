@@ -1,0 +1,23 @@
+Command: ninja size
+[0/2] Re-checking globbed directories...
+[0/2] cd /Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build && /Users/christian/Library/Caches/esphome/idf/tools/cmake/3.30.2/CMake.app/Contents/bin/cmake -D "IDF_SIZE_TOOL=/Users/christian/Library/Caches/esphome/idf/penvs/5.5.5/bin/python;-m;esp_idf_size" -D MAP_FILE=/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/hobbyconnect.map -D OUTPUT_JSON= -P /Users/christian/Library/Caches/esphome/idf/frameworks/5.5.5/tools/cmake/run_size_tool.cmake
+                             Memory Type Usage Summary                              
+┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory Type/Section   ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ Flash Code            │       930040 │          │                │               │
+│    .text              │       930040 │          │                │               │
+│ Flash Data            │       210520 │          │                │               │
+│    .rodata            │       210264 │          │                │               │
+│    .appdesc           │          256 │          │                │               │
+│ IRAM                  │       107047 │    81.67 │          24025 │        131072 │
+│    .text              │       106019 │    80.89 │                │               │
+│    .vectors           │         1028 │     0.78 │                │               │
+│ DRAM                  │        67124 │    53.88 │          57456 │        124580 │
+│    .bss               │        44392 │    35.63 │                │               │
+│    .data              │        22580 │    18.12 │                │               │
+│    .noinit            │          152 │     0.12 │                │               │
+│ RTC SLOW              │           56 │     0.68 │           8136 │          8192 │
+│    .force_slow        │           32 │     0.39 │                │               │
+│    .rtc_slow_reserved │           24 │     0.29 │                │               │
+└───────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘

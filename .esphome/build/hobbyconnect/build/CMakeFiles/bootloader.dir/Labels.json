@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

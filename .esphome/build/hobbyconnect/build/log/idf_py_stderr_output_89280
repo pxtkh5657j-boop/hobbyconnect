@@ -1,0 +1,4 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/christian/Library/Caches/esphome/idf/penvs/5.5.5/bin/python -DESP_PLATFORM=1 -DSDKCONFIG=/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/sdkconfig.hobbyconnect -DCCACHE_ENABLE=0 /Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository: /Users/christian/Library/Caches/esphome/idf/frameworks/5.5.5/components/openthread/openthread/../../../.git/modules/components/openthread/openthread

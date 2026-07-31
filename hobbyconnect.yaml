@@ -1,0 +1,48 @@
+esphome:
+  name: hobbyconnect
+  friendly_name: HobbyConnect
+
+esp32:
+  variant: esp32
+  framework:
+    type: esp-idf
+
+logger:
+  level: DEBUG
+
+api:
+  encryption:
+    key: "kBau0u+sqYYIfxFkI1F8ohK1vDxhVGx/aUPe0Dx90xU="
+
+ota:
+  - platform: esphome
+    password: !secret hobbyconnect_ota_password
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  ap:
+    ssid: "HobbyConnect Fallback"
+    password: "hOkafLsky1JP"
+
+captive_portal:
+
+external_components:
+  - source:
+      type: local
+      path: components
+    components:
+      - fendt_caravan
+
+esp32_ble_tracker:
+
+ble_client:
+  - mac_address: DE:00:44:80:60:49
+    id: hobby_ble
+    auto_connect: true
+
+fendt_caravan:
+  id: caravan
+  ble_client_id: hobby_ble
+  

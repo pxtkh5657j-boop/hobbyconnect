@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/CMakeFiles/bootloader
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/CMakeFiles/bootloader.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/CMakeFiles/bootloader-complete.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/christian/Documents/GitHub/hobbyconnect/.esphome/build/hobbyconnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
